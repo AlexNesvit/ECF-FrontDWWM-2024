@@ -84,37 +84,87 @@
                 </div>
                 <a href="#" class="fond-trajet">
                     <img src="images/fond trajet.jpg" alt="fond écran espace bateux">
+                </a>
             </div>
         </section>
         <section class="pilot" id="pilot">
             <div class="container-pilot">
-                <div class="container-card">
-                    <div class="card">
-                        <img src="#" alt="photo pilot 1">
-                        <h3>Pilot 1</h3>
-                        <p>Discription 1</p>
+                <button class="btn-pilot">Notre Pilotes</button>
+                <a href="#" class="fond-pilot">
+                    <img src="images/fond pilot.jpg" alt="fond écran pilotes">
+                </a>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="#" alt="photo pilot 1">
+                                <p>Pilot 1</p>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1>Pilot 1</h1>
+                                <p>We love this pilot 1</p>
+                            </div>
+                            <div class="flip-card-front">
+                                <img src="#" alt="photo pilote 2">
+                                <p>Pilote 2</p>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1>Pilote 2</h1>
+                                <p>We love this pilote 2</p>
+                            </div>
+                            <div class="flip-card-front">
+                                <img src="#" alt="photo pilote 3">
+                                <p>Pilote 3</p>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1>Pilote 3</h1>
+                                <p>We love this pilote 3</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card">
-                        <img src="#" alt="photo pilot 2">
-                        <h3>Pilot 2</h3>
-                        <p>Discription 2</p>
-                    </div>
-                    <div class="card">
-                        <img src="#" alt="photo trajet 3">
-                        <h3>Trajet 3</h3>
-                        <p>Planete 3</p>
-                    </div>
-                </div>
-                <button class="btn-trajet">Choisissez votre trajet</button>
-                <a href="#" class="fond-trajet">
-                    <img src="images/fond trajet.jpg" alt="fond écran espace bateux">
             </div>
         </section>
-
+        <section class="bateau" id="bateau">
+            <div class="container-bateau">
+                <button class="btn-bateau">Notre Bateau</button>
+                <a href="#" class="bateau">
+                    <img src="images/fond bateau.jpg" alt="fond bateux">
+                </a>
+            </div>
         </section>
     </main>
     <footer class="footer">
         <footer class="container" id="footer">
+            <h2>Formulaire d'inscription</h2>
+            <form onsubmit="return validateForm()">
+                <label for="username">Nom d'utilisateur:</label>
+                <input type="text" id="username" name="username" required><br><br>
+        
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required><br><br>
+        
+                <label for="firstName">Prénom:</label>
+                <input type="text" id="firstName" name="firstName" required><br><br>
+        
+                <label for="dob">Date de naissance:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+        
+                <label for="email">Adresse mail:</label>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                <label for="password">Mot de passe:</label>
+                <input type="password" id="password" name="password" required><br><br>
+        
+                <label for="confirmPassword">Confirmation du mot de passe:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+        
+                <label for="gender">Sexe:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Masculin</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Féminin</label><br><br>
+        
+                <input type="submit" value="Soumettre">
+            </form>    
     </footer>
     <script src="main.js"></script>
 </body>

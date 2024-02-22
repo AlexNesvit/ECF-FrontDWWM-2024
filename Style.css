@@ -127,6 +127,11 @@ body{
     justify-content: space-between;
 }
 
+.menu{
+    display: flex;
+    justify-content: space-between; 
+}
+
 .menu-list{
     display: flex;
     gap: 0 40px;
@@ -148,7 +153,7 @@ body{
    width: auto;
 }
 
-.promo__inner{
+.promo-inner{
     
     display: flex;
     flex-direction: column;
@@ -184,8 +189,8 @@ body{
     padding: 10px 0;
 }
 
-.promo__text{
-    font-size: 16px;
-    color: #363636;
+.promo-text{
+    font-size: 20px;
+    color: #f5f5f5;
     margin-bottom: 10px;
 }

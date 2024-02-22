@@ -122,7 +122,7 @@ header{
 }
 .menu>li>a {
     text-decoration: none;
-    background-color: gainsboro;
+    background-color: #D9D9D9;
     padding: 10px 20px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -130,7 +130,7 @@ header{
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
     color: #000;
-    border: 1px solid #000;
+    border: 2px solid #000;
 }
 
  .promo-inner{
@@ -186,4 +186,18 @@ header{
         margin-right: 0;
         margin-top: 5%;
     }
+}
+
+.btn-reserv {
+    text-decoration: none;
+    background-color: #D9D9D9;
+    padding: 10px 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: #000;
+    border: 2px solid #000;
+    width: 230px;
 }

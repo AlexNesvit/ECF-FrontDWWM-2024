@@ -101,13 +101,6 @@ li{
     list-style: none;
 }
 
-.container{
-    max-width: 920px;
-    padding: 0 10px;
-    margin: 0 auto;
-}
-
-
 header{
     display: flex;
     flex-direction: row;
@@ -118,20 +111,19 @@ header{
     right: 0;
 }
 
-.navbar>nav>ul{
-    gap: 30px;
-    display: flex;
-}
-
 .menu{
     display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 .menu-link{
-    color: red;
     font-size: 20px;
     text-align: center;
-}
+    text-decoration: none;
+    color: red;
+} 
 
 .promo{
    background-image: url("images/fond promo.jpg"); 
@@ -167,3 +159,24 @@ header{
     color: #f5f5f5;
     margin-bottom: 10px;
 }
+
+/*essay*/
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 480px;
+    margin-left: 50px; /* Расстояние между логотипом и пунктами меню */
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 0 10px; /*Расстояние между пунктами меню */
+}
+
+
+

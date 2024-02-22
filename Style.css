@@ -89,3 +89,103 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
+
+/* start css*/
+
+li{
+    list-style: none;
+}
+
+.big-container{
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 920px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+body{
+    font-weight: 400;
+    color: #040404; 
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.header{
+    padding-top: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, #D8D4CA 0%, rgba(217, 217, 217, 0) 100%);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list{
+    display: flex;
+    gap: 0 40px;
+    padding-top: 25px;
+}
+
+.menu-link{
+    color: #363636;
+    font-size: 16px;
+}
+
+.promo{
+   background-image: url("images/fond promo.jpg"); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding-top: 100px;
+   height: 100vh;
+   width: auto;
+}
+
+.promo__inner{
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.title{
+    font-family:'Impact', sans-serif;
+    font-weight: 400;
+    font-size: 76px;
+    letter-spacing: 0.03em;
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height: 1.2;
+}
+
+.subtitle{
+    font-family:'Impact', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    border-bottom: 1px solid #040404;
+    margin-bottom: 0;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.subtitle span{
+    display: block;
+    font-size: 34px;
+    color: #9f6b08;
+    padding: 10px 0;
+}
+
+.promo__text{
+    font-size: 16px;
+    color: #363636;
+    margin-bottom: 10px;
+}

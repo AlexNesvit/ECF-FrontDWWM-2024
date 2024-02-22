@@ -200,4 +200,6 @@ header{
     color: #000;
     border: 2px solid #000;
     width: 230px;
+    display: block;
+    margin: 0 auto; /* Центрирует кнопку по горизонтали */
 }

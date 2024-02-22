@@ -92,27 +92,19 @@ input[type="submit"]:hover {
 
 /* start css*/
 
-li{
-    list-style: none;
+a{
+    color: inherit;
+    text-decoration: none;
 }
 
-.big-container{
-    max-width: 1440px;
-    padding: 0 10px;
-    margin: 0 auto;
+li{
+    list-style: none;
 }
 
 .container{
     max-width: 920px;
     padding: 0 10px;
     margin: 0 auto;
-}
-
-body{
-    font-weight: 400;
-    color: #040404; 
-    font-size: 14px;
-    line-height: 1.2;
 }
 
 .header{
@@ -124,12 +116,11 @@ body{
 
 .nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .menu{
     display: flex;
-    justify-content: space-between; 
 }
 
 .menu-list{
@@ -139,7 +130,7 @@ body{
 }
 
 .menu-link{
-    color: #363636;
+    color: red;
     font-size: 16px;
 }
 

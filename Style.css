@@ -221,6 +221,8 @@ header{
     background-image: url("images/Planete medium.svg");
     background-size: contain;
     background-repeat: no-repeat;
+    margin-left: 75%;
+    margin-top: -6%;
 }
 
 .planete-grande {

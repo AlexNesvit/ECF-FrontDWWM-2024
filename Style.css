@@ -209,5 +209,22 @@ header{
     height: 100px; 
     background-image: url("images/Planete small.svg");
     background-size: cover;
+    display: flex;
 }
+
+.planete-medium {
+    width: 180px;
+    height: 180px; 
+    background-image: url("images/Planete medium.svg");
+    background-size: cover;
+}
+
+.planete-grande {
+    width: 356px;
+    height: 356px; 
+    background-image: url("images/Planete grande.svg");
+    background-size: cover;
+}
+
+
 

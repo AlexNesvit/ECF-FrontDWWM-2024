@@ -204,3 +204,10 @@ header{
     margin: 0 auto; /* Центрирует кнопку по горизонтали */
 }
 
+.planete-petite {
+    width: 100px;
+    height: 100px; 
+    background-image: url("images/Planete small.svg");
+    background-size: cover;
+}
+

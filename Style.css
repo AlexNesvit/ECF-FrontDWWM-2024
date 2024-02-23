@@ -211,8 +211,8 @@ header{
     background-size: cover;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 25%;
-    margin-top: 2%;
+    margin-left: 23%;
+    /* margin-top: 1%; pour descendre planete*/
 }
 
 .planete-medium {
@@ -222,7 +222,7 @@ header{
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 75%;
-    margin-top: -6%;
+    margin-top: -7%;
 }
 
 .planete-grande {

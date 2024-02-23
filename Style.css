@@ -234,20 +234,28 @@ header{
 }
 
 .container-about{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
     grid-template-columns: auto auto; /* Deux colonnes avec une largeur automatique */
     justify-content: space-between; /* Répartit l'espace entre les colonnes */
 }
 
 .container-left{
+    width: 49%;
+    margin-right: 1%;
 }
 
 .container-right{
-    background-image: url("images/star bateux-min.jpg");
+    /* background-image: url("images/star bateux-min.jpg"); */
     background-size: cover;
-    width: 50%;
-    height: 416px;
-    margin: auto;
+    width: 49%;
+
+    margin-left: 1%;
+}
+
+.container-right>a>img{
+    width: 100%;
 }
 
 .btn-reserv-about{

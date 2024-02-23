@@ -1,5 +1,9 @@
 # Projet ECF-FrontDWWM-2024
 
+## Figma
+
+## Trello
+
 ## Les etapes
 
 ### 1 Maquetage Figma pour Desctop 1440 * 1024

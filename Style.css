@@ -233,5 +233,36 @@ header{
     background-repeat: no-repeat;
 }
 
+.container-about{
+    display: grid;
+    grid-template-columns: auto auto; /* Deux colonnes avec une largeur automatique */
+    justify-content: space-between; /* Répartit l'espace entre les colonnes */
+}
+
+.container-left{
+}
+
+.container-right{
+    background-image: url("images/star bateux-min.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 416px;
+    margin: auto;
+}
+
+.btn-reserv-about{
+    text-decoration: none;
+    background-color: #D9D9D9;
+    padding: 10px 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: #000;
+    border: 2px solid #000;
+    width: 230px;    
+}
+
 
 

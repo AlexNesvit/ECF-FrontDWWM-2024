@@ -1,8 +1,8 @@
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 300px;
     border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
@@ -56,6 +56,10 @@
 
 h2 {
     text-align: center;
+    font-size: 30px;
+    font-family:'Impact', sans-serif;
+    color: #7B39FD;
+    letter-spacing: 0.03em;
 }
 
 label {
@@ -279,13 +283,6 @@ header{
 .about-text{
     font-size: 20px;
     margin: 10% auto;
-}
-
-h2{
-    font-size: 30px;
-    font-family:'Impact', sans-serif;
-    color: #7B39FD;
-    letter-spacing: 0.03em;
 }
 
 

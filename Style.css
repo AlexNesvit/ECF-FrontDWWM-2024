@@ -293,7 +293,7 @@ h2{
 .container-trajet{
     display: flex;
     background-image: url("images/fond trajet-min.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 250vh;
@@ -312,7 +312,7 @@ h2{
     border: 2px solid #000;
     width: 230px; 
     display: block;
-    margin: 18.6% auto;  
+    margin: 18.6% auto;
 }
 
 

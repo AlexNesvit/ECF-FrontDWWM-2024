@@ -233,6 +233,8 @@ header{
     background-repeat: no-repeat;
 }
 
+/*Section about*/
+
 .container-about{
     display: flex;
     flex-wrap: wrap;
@@ -285,6 +287,18 @@ h2{
     color: #7B39FD;
     letter-spacing: 0.03em;
 }
+
+
+/*Section trajet*/
+.container-trajet{
+    display: flex;
+    background-image: url("images/fond trajet-min.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
 
 
 

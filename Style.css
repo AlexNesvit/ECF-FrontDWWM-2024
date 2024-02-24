@@ -186,6 +186,11 @@ header{
         margin-right: 0;
         margin-top: 5%;
     }
+
+    .planete-grande {
+        width: 200px;
+        height: 200px; 
+    }
 }
 
 .btn-reserv {

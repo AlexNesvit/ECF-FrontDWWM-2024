@@ -63,6 +63,11 @@
     transform: rotateY(180deg);
   }
 
+  .img-card {
+    width: 90%;
+}
+
+
   /* forme inscriptions */
 
   form {
@@ -273,7 +278,6 @@ header{
 }
 
 .container-right{
-    /* background-image: url("images/star bateux-min.jpg"); */
     background-size: cover;
     width: 49%;
 
@@ -335,9 +339,6 @@ header{
     left: 44%; /* Aligner la gauche du bouton au milieu horizontal */
 }
 
-.img-card {
-    width: 90%;
-}
 
 
 

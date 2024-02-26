@@ -36,6 +36,25 @@
     background-color: #bbb;
     color: black;
   }
+
+/* Positionnement à gauche */
+.flip-card-left {
+    float: left;
+    margin: 10%; /* Ajustez selon votre mise en page */
+}
+
+/* Positionnement au centre */
+.flip-card-center {
+    margin: 10% auto; /* Centre horizontalement */
+}
+
+/* Positionnement à droite */
+.flip-card-right {
+    float: right;
+    margin: 10%;
+    /* Ajustez selon votre mise en page */
+}
+
   
   /* Style the back side */
   .flip-card-back {
@@ -308,9 +327,11 @@ header{
     color: #000;
     border: 2px solid #000;
     width: 230px; 
-    display: block;
     margin: 50% auto;
     height: 40px;
+    position: absolute;
+    top: 160%; /* Aligner le haut du bouton au milieu vertical */
+    left: 48%; /* Aligner la gauche du bouton au milieu horizontal */
 }
 
 

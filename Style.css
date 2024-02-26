@@ -334,6 +334,10 @@ header{
     left: 48%; /* Aligner la gauche du bouton au milieu horizontal */
 }
 
+.img-card {
+    width: 90%;
+}
+
 
 
 

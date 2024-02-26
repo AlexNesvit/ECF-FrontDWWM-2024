@@ -164,6 +164,7 @@ header{
     margin: 0 auto;
     font-size: 17px;
     letter-spacing: 0.04em;
+    opacity: 0.6;
 }
 
 .planete-petite {
@@ -276,6 +277,7 @@ header{
     left: 40%;
     font-size: 15px; 
     letter-spacing: 0.04em;
+    opacity: 0.6;
 }
 
 /*  flip card  */
@@ -313,7 +315,7 @@ header{
 
 .flip-card-front {
     background-color: #bbb;
-    opacity: 0.75;
+    opacity: 0.6;
     color: black;
 }
 
@@ -383,6 +385,7 @@ p {
     left: 40%;
     font-size: 15px; 
     letter-spacing: 0.04em; 
+    opacity: 0.6;
 }
 
 .container-pilot{

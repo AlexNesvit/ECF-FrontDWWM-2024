@@ -151,7 +151,7 @@ header{
     text-decoration: none;
     background-color: #D9D9D9;
     padding: 10px 20px;
-    border-radius: 15px;
+    border-radius: 2px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
@@ -227,7 +227,7 @@ header{
     text-decoration: none;
     background-color: #D9D9D9;
     padding: 10px 20px;
-    border-radius: 30px;
+    border-radius: 2px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
@@ -262,7 +262,7 @@ header{
     text-decoration: none;
     background-color: #D9D9D9;
     padding: 10px 20px;
-    border-radius: 30px;
+    border-radius: 2px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
@@ -370,7 +370,7 @@ p {
     text-decoration: none;
     background-color: #D9D9D9;
     padding: 10px 20px;
-    border-radius: 30px;
+    border-radius: 2px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
@@ -395,6 +395,29 @@ p {
     background-repeat: no-repeat;
     height: 130vh;
     width: 100%;
+}
+
+/*Sections bateaux*/
+.btn-bateau {
+    text-decoration: none;
+    background-color: #D9D9D9;
+    padding: 10px 20px;
+    border-radius: 2px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: #000;
+    border: 2px solid #000; 
+    margin: 45% auto;
+    width: 350px;
+    height: 70px;;
+    position: absolute;
+    top: 355%; 
+    left: 40%;
+    font-size: 15px; 
+    letter-spacing: 0.04em; 
+    opacity: 0.6;
 }
 
 

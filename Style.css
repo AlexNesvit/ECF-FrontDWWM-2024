@@ -151,16 +151,18 @@ header{
     text-decoration: none;
     background-color: #D9D9D9;
     padding: 10px 20px;
-    border-radius: 30px;
+    border-radius: 15px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
     color: #000;
     border: 2px solid #000;
-    width: 230px;
+    width: 350px;
+    height: 70px;
     display: block;
-    margin: 0 auto; /* Центрирует кнопку по горизонтали */
+    margin: 0 auto;
+    font-size: 17px;
 }
 
 .planete-petite {
@@ -276,12 +278,12 @@ header{
     width: 300px;
     height: 400px;
     border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    perspective: 1000px;
   }
   
   /* This container is needed to position the front and back side */
   .flip-card-inner {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -297,10 +299,11 @@ header{
   /* Position the front and back side */
   .flip-card-front, .flip-card-back {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 400px;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    border-radius: 15px;
   }
   
   /* Style the front side (fallback if image is missing) */
@@ -310,21 +313,26 @@ header{
   }
 
 /* Positionnement à gauche */
-.flip-card-left {
+.flip-card-left{
     float: left;
-    margin: 18%; /* Ajustez selon votre mise en page */
+    margin: 18%;
+    border: 2px solid #000;
+    border-radius: 15px;
 }
 
 /* Positionnement au centre */
 .flip-card-center {
-    margin: 18% auto; /* Centre horizontalement */
+    margin: 18% auto;
+    border: 2px solid #000; 
+    border-radius: 15px;
 }
 
 /* Positionnement à droite */
 .flip-card-right {
     float: right;
     margin: 18%;
-    /* Ajustez selon votre mise en page */
+    border: 2px solid #000;
+    border-radius: 15px;
 }
  
   /* Style the back side */
@@ -337,15 +345,14 @@ header{
   .img-card {
     width: 90%;
     margin-top: 10px;
+    border-radius: 15px;
 }
 
 h3{
-    font-family:'Impact', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 0;
     margin-top: 20px;
     line-height: 1.2;
-    letter-spacing: 0.07em;
     color:#000;
 }
 

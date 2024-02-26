@@ -232,9 +232,11 @@ header{
     -o-border-radius: 30px;
     color: #000;
     border: 2px solid #000;
-    width: 230px; 
+    width: 350px;
+    height: 70px; 
     display: block;
-    margin: 10% auto;   
+    margin: 10% auto;
+    font-size: 15px;   
 }
 
 .about-text{
@@ -263,17 +265,18 @@ header{
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
     color: #000;
-    border: 2px solid #000;
-    width: 230px; 
-    margin: 50% auto;
-    height: 40px;
+    border: 2px solid #000; 
+    margin: 45% auto;
+    width: 350px;
+    height: 70px;;
     position: absolute;
-    top: 90%; /* Aligner le haut du bouton au milieu vertical */
-    left: 44%; /* Aligner la gauche du bouton au milieu horizontal */
+    top: 90%; 
+    left: 44%;
+    font-size: 15px; 
 }
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
+/* The flip card container - */
+/* .flip-card {
     background-color: transparent;
     width: 300px;
     height: 400px;
@@ -282,73 +285,73 @@ header{
   }
   
   /* This container is needed to position the front and back side */
-  .flip-card-inner {
+  /* .flip-card-inner {
     position: absolute;
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-  }
+  } */
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
+  /* .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
-  
+   */
   /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
+  /* .flip-card-front, .flip-card-back {
     position: absolute;
     width: 300px;
     height: 400px;
     -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
+    /* backface-visibility: hidden;
     border-radius: 15px;
-  }
+  }  */
   
   /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
+  /* .flip-card-front {
     background-color: #bbb;
     color: black;
-  }
+  } */
 
 /* Positionnement à gauche */
-.flip-card-left{
+/* .flip-card-left{
     float: left;
     margin: 18%;
     border: 2px solid #000;
     border-radius: 15px;
-}
+} */
 
 /* Positionnement au centre */
-.flip-card-center {
+/* .flip-card-center {
     margin: 18% auto;
     border: 2px solid #000; 
     border-radius: 15px;
-}
+} */
 
 /* Positionnement à droite */
-.flip-card-right {
+/* .flip-card-right {
     float: right;
     margin: 18%;
     border: 2px solid #000;
     border-radius: 15px;
-}
+} */
  
   /* Style the back side */
-  .flip-card-back {
+  /* .flip-card-back {
     background-color: #bbb;
     color: white;
     transform: rotateY(180deg);
-  }
+  } */
 
-  .img-card {
+  /* .img-card {
     width: 90%;
     margin-top: 10px;
     border-radius: 15px;
-}
+} */
 
-h3{
+/* h3{
     font-size: 25px;
     margin-bottom: 0;
     margin-top: 20px;
@@ -358,9 +361,87 @@ h3{
 
 p{
     color:#000;
-}
+}  */
 
 /* section Pilotes */
+.flip-card {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    perspective: 1000px; /* Pour l'effet de rotation 3D */
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.img-card {
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    line-height: 1.2;
+    color: #000;
+}
+
+p {
+    color: #000;
+}
+
+/* Positionnement à gauche */
+.flip-card-left {
+    float: left;
+    margin: auto 18px;
+    margin-left: 15%;
+}
+
+/* Positionnement au centre */
+.flip-card-center {
+    margin: auto;
+}
+
+/* Positionnement à droite */
+.flip-card-right {
+    float: right;
+    margin: auto 18px;
+    margin-right: 15%;
+}
 
 
 

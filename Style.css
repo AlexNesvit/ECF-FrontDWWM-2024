@@ -244,7 +244,7 @@ header{
     background-image: url("images/Planete medium.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 75%;
+    margin-left: 80%;
     margin-top: -7%;
 }
 
@@ -254,6 +254,7 @@ header{
     background-image: url("images/Planete grande.svg");
     background-size: contain;
     background-repeat: no-repeat;
+    margin-top: -7%;
 }
 
 /*Section about*/
@@ -312,7 +313,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     height: 130vh;
-    width: 222vh;
+    width: 100%;
 }
 
 .btn-trajet{
@@ -330,8 +331,8 @@ header{
     margin: 50% auto;
     height: 40px;
     position: absolute;
-    top: 85%; /* Aligner le haut du bouton au milieu vertical */
-    left: 48%; /* Aligner la gauche du bouton au milieu horizontal */
+    top: 90%; /* Aligner le haut du bouton au milieu vertical */
+    left: 44%; /* Aligner la gauche du bouton au milieu horizontal */
 }
 
 .img-card {

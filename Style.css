@@ -80,7 +80,8 @@ header{
      margin-bottom: 10px;
  }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
+
     .header-img{
         width: 40%;
         text-align: center;
@@ -120,11 +121,73 @@ header{
         flex-direction: row;
         margin: auto;
     }
+
     .menu>li{
         margin-right: 0;
         margin-top: 5%;
     }
 
+    h2{
+        font-size: 15px;
+    }
+    .btn-trajet{
+        margin-left: 35%;
+    }
+    .planete-petite{
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 393px) {
+    .header-img{
+        width: 20%;
+        text-align: center;
+    }
+    .navba{
+        width:100%;
+        text-align: center;
+    } 
+    .header-content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .promo-inner{
+        width: 50vh;
+        margin-top: 10px;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .promo-text{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .promo-inner>button{
+        width: 170px;
+        height: 30px;
+        padding: 0%;
+        font-size: 11px;
+    }
+
+    .menu{
+        padding-left:0;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+    .menu>li{
+        margin-right: 0;
+        margin-top: 5%;
+        font-size: 11px;
+        height: 30px;
+        
+    }
 }
 
 

@@ -1,34 +1,40 @@
 
-/* start css*/
 body{
     margin: 0;
-}
+} 
+
 header{
     background-image: url("images/fond_promo-min.jpg");
     background-size: cover;
     height: 100vh;
 }
+
 .header-content{
     display: flex;
     align-items: center;
 }
+
 .header-img{
     width: 15%;
     text-align: center;
 }
-.navbar{
+
+.navba{
     width:85%;
 }
+
 .menu{
     padding-left: 25%;
     list-style: none;
     display: flex;
     justify-content: flex-start;
+     width: 100%;
 }
 
 .menu>li{
     margin-right: 2%;
 }
+
 .menu>li>a {
     text-decoration: none;
     background-color: #D9D9D9;
@@ -73,6 +79,7 @@ header{
      color: #f5f5f5;
      margin-bottom: 10px;
  }
+
 @media screen and (max-width:990px) {
     .header-img{
         width: 100%;

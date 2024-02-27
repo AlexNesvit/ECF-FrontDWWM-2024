@@ -80,7 +80,7 @@ header{
      margin-bottom: 10px;
  }
 
-@media screen and (max-width:990px) {
+@media screen and (max-width:768px) {
     .header-img{
         width: 40%;
         text-align: center;
@@ -250,16 +250,17 @@ header{
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
     color: #000;
-    border: 2px solid #000; 
-    margin: 45% auto;
+    border: 2px solid #000;
     width: 350px;
-    height: 70px;;
-    position: absolute;
-    top: 135%; 
-    left: 40%;
-    font-size: 15px; 
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
     letter-spacing: 0.04em;
     opacity: 0.6;
+    text-align: center;
+    position: absolute;
+    margin-left: 40%;
 }
 
 /*  flip card  */
@@ -363,7 +364,7 @@ p {
     width: 350px;
     height: 70px;;
     position: absolute;
-    top: 265%; 
+    top: 270%; 
     left: 40%;
     font-size: 15px; 
     letter-spacing: 0.04em; 
@@ -396,7 +397,7 @@ p {
     height: 70px;;
     position: absolute;
     top: 400%; 
-    left: 35%;
+    left: 40%;
     font-size: 15px; 
     letter-spacing: 0.04em; 
     opacity: 0.6;

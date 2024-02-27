@@ -134,7 +134,7 @@ header{
         margin-left: 35%;
     }
     .planete-petite{
-        margin-left: 15%;
+        margin-left: 15%;  /*marche pas*/
     }
 }
 
@@ -181,15 +181,14 @@ header{
         flex-direction: row;
         margin: auto;
     }
+    
     .menu>li{
         margin-right: 0;
         margin-top: 5%;
         font-size: 11px;
-        height: 30px;
-        
+        height: 30px;   
     }
 }
-
 
 .btn-reserv {
     text-decoration: none;

@@ -366,7 +366,7 @@ header{
 
 .flip-card-back {
     background-color: #bbb;
-    color: white;
+    color: black;
     transform: rotateY(180deg);
 }
 

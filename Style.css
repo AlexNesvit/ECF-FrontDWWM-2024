@@ -54,7 +54,7 @@ header{
      flex-direction: column;
      text-align: center;
      position: absolute;
-     top:30%;
+     top: 20%;
      left:50%;
      transform: translateX(-50%);
      -webkit-transform: translateX(-50%);

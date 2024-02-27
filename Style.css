@@ -75,7 +75,7 @@ header{
  }
  
  .promo-text{
-     font-size: 20px;
+     font-size: 25px;
      color: #f5f5f5;
      margin-bottom: 10px;
  }
@@ -181,7 +181,7 @@ header{
         flex-direction: row;
         margin: auto;
     }
-    
+
     .menu>li{
         margin-right: 0;
         margin-top: 5%;

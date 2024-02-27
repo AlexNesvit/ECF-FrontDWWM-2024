@@ -142,7 +142,7 @@ header{
     background-image: url("images/Planete medium.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 80%;
+    margin-left: 85%;
     margin-top: -7%;
 }
 
@@ -152,7 +152,8 @@ header{
     background-image: url("images/Planete grande.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: -7%;
+    margin-top: -15%;
+    margin-left: -10%;
 }
 
 /*Section about*/

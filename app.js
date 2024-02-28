@@ -47,19 +47,21 @@ app.get('/pilotes', (req, res) => {
         }
     });
 });  
-
+// route pour ajouter des utilisateurs
 app.post('/user', (req,res) => {
-    const {user_nom,user_prenom,password} = req.body;
+    const {'user nom':user_nom,'user prenom':user_prenom,password} = req.body;
+    
+    const query = 'INSERT INTO `user` (`user nom`, `user prenom`, `password`) VALUES (?, ?, ?)';
 
-    connection.query('INSERT INTO user SET ?', { user_nom, user_prenom, password }, (err, results) => {
-        if (err) {
-          console.error('Erreur lors de l\'insertion des données :', err);
-          res.status(500).send('Erreur lors de l\'insertion des données dans la base de données');
-          return;
-        }
-        console.log('Nouvel utilisateur inséré avec succès !');
-        res.status(201).send('Nouvel utilisateur inséré avec succès !');
-      });
+     db.query(query, [user_nom,user_prenom,password], (err, results) => {
+    if (err) {
+      console.error('Erreur lors de l\'insertion des données :', err);
+      res.status(500).send('Erreur lors de l\'insertion des données dans la base de données');
+      return;
+    }
+    console.log('Nouvel utilisateur inséré avec succès !');
+    res.status(201).send('Nouvel utilisateur inséré avec succès !');
+  });
 })
 
 

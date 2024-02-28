@@ -197,21 +197,33 @@
     </main>
     <section class="contact" id="contact">
         <h2>Contactez nous:</h2>
-        <form onsubmit="return validateForm()">
+        <form id="userRegister">
             <h3>Inscription utilisateur:</h3>
-            <label for="username">Nom: </label>
-            <input type="text" id="username" name="username" required><br><br>
-
-            <label for="firstName">Prénom:</label>
-            <input type="text" id="firstName" name="firstName" required><br><br>
-
-            <label for="password">Mot de passe:</label>
-            <input type="password" id="password" name="password" required><br><br>
-
-            <label for="confirmPassword">Confirmation du mot de passe:</label>
-            <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
-
-            <input type="submit" value="Soumettre">
+            <div class="form-field">
+                <label for="username">Nom: </label>
+            <input type="text" id="username" name="username">
+            <small></small>
+            </div>
+            
+            <div class="form-field">
+                <label for="firstName">Prénom:</label>
+            <input type="text" id="firstName" name="firstName" ><small></small>
+            </div>
+            
+            <div class="form-field">
+                <label for="password">Mot de passe:</label>
+            <input type="password" id="password" name="password" > <small></small>
+            </div>
+            
+            <div class="form-field">
+                <label for="confirmPassword">Confirmation du mot de passe:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" > <small></small>
+            </div>
+            
+            <div class="text-center">
+                <button class="btn btn-primary" type="submit" value="Soumettre">soumettre</button>
+            </div>
+            
         </form>
     </section>
     <footer class="footer">

@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Réservation de voyage</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Réservation de Voyage Spatial</h1>
-    <form action="#">
-        <label for="date">Date de Voyage :</label>
-        <input type="date" id="date" name="date" required><br><br>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Réservation de voyage</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="fond">
+            <a href="#" class="bateau">
+                <img src="images/fond_promo-min.jpg" alt="fond bateux"
+                    class="w-100">
+            </a>
+            <h1>Réservation de Voyage Spatial</h1>
+            <form action="#">
+                <label for="date">Date de Voyage :</label>
+                <input type="date" id="date" name="date" required><br><br>
 
-        <label for="trajet">Choisir le Trajet :</label>
-        <select id="trajet" name="trajet">
-            
-        </select><br><br>
+                <label for="trajet">Choisir le Trajet :</label>
+                <select id="trajet" name="trajet">
 
-        <label for="pilote">Choisir le Pilote :</label>
-        <select id="pilote" name="pilote">
-          
-        </select><br><br>
+                </select><br><br>
 
-        <button type="submit">Réserver</button>
-    </form>
-    <script src="devFetch.js"></script>
-</body>
+                <label for="pilote">Choisir le Pilote :</label>
+                <select id="pilote" name="pilote">
+
+                </select><br><br>
+
+                <button type="submit">Réserver</button>
+            </form>
+        </div>
+        <script src="devFetch.js"></script>
+    </body>
 </html>

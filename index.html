@@ -57,7 +57,7 @@
             <div class="container-left">
                 <h2>About voyage</h2>
                 <p class="about-text">Préparez-vous pour une expédition inoubliable à travers l'espace infini. Plongez dans l'immensité des étoiles, explorez des planètes exotiques et des phénomènes cosmiques fascinants. Rencontrez des civilisations extraterrestres, découvrez des mystères de l'univers et créez des souvenirs qui dureront pour l'éternité lors de votre voyage spatial extraordinaire!</p>
-                <form action="dev.html" method="GET" id="reservationForm">
+                <form action="dev.html" method="GET" id="reservationForm2">
                     <button class="btn-reserv-about">
                         <span class="spinner-grow spinner-grow-sm" aria-hidden="true"></span>
                         <span class="visually-hidden" role="status">Loading...</span>                  
@@ -198,32 +198,18 @@
     <section class="contact" id="contact">
         <h2>Contactez nous:</h2>
         <form onsubmit="return validateForm()">
-            <label for="username">Nom d'utilisateur:</label>
+            <h3>Inscription utilisateur:</h3>
+            <label for="username">Nom: </label>
             <input type="text" id="username" name="username" required><br><br>
-
-            <label for="name">Nom:</label>
-            <input type="text" id="name" name="name" required><br><br>
 
             <label for="firstName">Prénom:</label>
             <input type="text" id="firstName" name="firstName" required><br><br>
-
-            <label for="dob">Date de naissance:</label>
-            <input type="date" id="dob" name="dob" required><br><br>
-
-            <label for="email">Adresse mail:</label>
-            <input type="email" id="email" name="email" required><br><br>
 
             <label for="password">Mot de passe:</label>
             <input type="password" id="password" name="password" required><br><br>
 
             <label for="confirmPassword">Confirmation du mot de passe:</label>
             <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
-
-            <label for="gender">Sexe:</label>
-            <input type="radio" id="male" name="gender" value="male" required>
-            <label for="male">Masculin</label>
-            <input type="radio" id="female" name="gender" value="female" required>
-            <label for="female">Féminin</label><br><br>
 
             <input type="submit" value="Soumettre">
         </form>

@@ -379,11 +379,12 @@ header{
 }
 
 h3 {
-    font-size: 25px;
-    margin-bottom: 0;
-    margin-top: 20px;
-    line-height: 1.2;
+    font-size: 35px !important;
+    margin-bottom: 0 !important;
+    margin-top: 20px !important;
+    line-height: 1.2 !important;
     color: #000;
+    text-align: center;
 }
 
 p {
@@ -427,7 +428,7 @@ p {
     width: 350px;
     height: 70px;;
     position: absolute;
-    top: 290%; 
+    top: 305%; 
     left: 40%;
     font-size: 15px; 
     letter-spacing: 0.04em; 
@@ -459,7 +460,7 @@ p {
     width: 350px;
     height: 70px;;
     position: absolute;
-    top: 420%; 
+    top: 430%; 
     left: 40%;
     font-size: 15px; 
     letter-spacing: 0.04em; 

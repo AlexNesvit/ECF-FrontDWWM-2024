@@ -131,9 +131,6 @@ header{
         margin-top: 5%;
     }
 
-    h2{
-        font-size: 15px;
-    }
     .btn-trajet{
         margin-left: 30%;
     }
@@ -488,7 +485,7 @@ h2 {
     text-align: center;
     font-size: 50px;
     font-family:'Impact', sans-serif;
-    color: #7B39FD;
+    color: #7B39FD !important;
     letter-spacing: 0.03em;
 }
 

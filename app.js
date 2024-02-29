@@ -2,7 +2,8 @@
 npm install -y
 npm install express
 npm start
-npm i -D nodemon*/
+npm i -D nodemon
+ nodemon app.js - pour start le server*/
 import express, { json } from 'express';
 import { createConnection } from 'mysql2';
 import cors from 'cors';

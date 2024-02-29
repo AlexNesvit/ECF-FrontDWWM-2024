@@ -113,7 +113,7 @@ formTravel.addEventListener("submit", (e) => {
     e.preventDefault();
 
     fetchLastUser().then(data => {
-        // Utiliser la variable ici
+        // Utilisation les variables ici
         console.log(data);
         const iduser = data[0].iduser;
         const user_iduser = iduser.toString();

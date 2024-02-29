@@ -67,11 +67,9 @@ function showSuccess(input) {
     errorEl.textContent = ""
 }
 
-
 formTravel.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    
         fetchLastUser().then(data => {
             // Utiliser la variable ici
             console.log(data)

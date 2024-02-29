@@ -118,7 +118,6 @@ formTravel.addEventListener("submit", (e) => {
         const user_iduser = iduser.toString();
         const userName = data[0]['user nom'];
         const userFirstname = data[0]['user prenom'];
-        const trajetName = data[0]['trajet nom'];
         const date_voyage = travelDatEl.value;
         const trajet_idtrajet = destinationEl.options[destinationEl.selectedIndex].value;
         const pilote_idpilote = piloteEl.options[piloteEl.selectedIndex].value;
@@ -144,7 +143,7 @@ formTravel.addEventListener("submit", (e) => {
                     'ID du voyage: ' + data.id_voyage + '\n' +
                     'ID utilisateur: ' + user_iduser +' '+ userName +' '+ userFirstname +'\n' +
                     'Date de voyage: ' + date_voyage + '\n' +
-                    'ID trajet: ' + trajet_idtrajet + trajetName+'\n' +
+                    'ID trajet: ' + trajet_idtrajet + '\n' +
                     'ID pilote: ' + pilote_idpilote);
 
                 // Afficher le message "Vous pouvez réserver votre voyage"

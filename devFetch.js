@@ -103,3 +103,61 @@ formTravel.addEventListener("submit", (e) => {
         });
     }
 );
+
+
+
+
+
+// affichage "Vous pouvez réserver votre voyage"
+formTravel.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    fetchLastUser().then(data => {
+        // Utiliser la variable ici
+        console.log(data);
+        const iduser = data[0].iduser;
+        const user_iduser = iduser.toString();
+        const date_voyage = travelDatEl.value;
+        const trajet_idtrajet = destinationEl.options[destinationEl.selectedIndex].value;
+        const pilote_idpilote = piloteEl.options[piloteEl.selectedIndex].value;
+
+        fetch('http://localhost:3000/travel', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ user_iduser, trajet_idtrajet, pilote_idpilote, 'date voyage': date_voyage })
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok: ' + response.statusText);
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log('Success:', data);
+
+                // Afficher les informations du voyage enregistré
+                alert('Ticket créé avec succès ! Voici les détails du voyage:\n' +
+                    'ID du voyage: ' + data.id_voyage + '\n' +
+                    'ID utilisateur: ' + user_iduser + '\n' +
+                    'Date de voyage: ' + date_voyage + '\n' +
+                    'ID trajet: ' + trajet_idtrajet + '\n' +
+                    'ID pilote: ' + pilote_idpilote);
+
+                // Afficher le message "Vous pouvez réserver votre voyage"
+                alert("Vous pouvez réserver votre voyage");
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+    });
+});
+
+
+//affichage le nom et prenom dans le ticket
+
+
+
+
+

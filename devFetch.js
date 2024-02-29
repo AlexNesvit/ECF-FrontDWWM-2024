@@ -104,7 +104,4 @@ formTravel.addEventListener("submit", (e) => {
                 });
         });
     }
-
-
-
 );

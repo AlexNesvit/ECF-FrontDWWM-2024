@@ -95,7 +95,6 @@ formTravel.addEventListener("submit", (e) => {
                 })
                 .then(data => {
                     console.log('Success:', data);
-
                 })
                 .catch((error) => {
                     console.error('Error:', error);
@@ -117,6 +116,9 @@ formTravel.addEventListener("submit", (e) => {
         console.log(data);
         const iduser = data[0].iduser;
         const user_iduser = iduser.toString();
+        const userName = data[0]['user nom'];
+        const userFirstname = data[0]['user prenom'];
+        const trajetName = data[0]['trajet nom'];
         const date_voyage = travelDatEl.value;
         const trajet_idtrajet = destinationEl.options[destinationEl.selectedIndex].value;
         const pilote_idpilote = piloteEl.options[piloteEl.selectedIndex].value;
@@ -140,13 +142,13 @@ formTravel.addEventListener("submit", (e) => {
                 // Afficher les informations du voyage enregistré
                 alert('Ticket créé avec succès ! Voici les détails du voyage:\n' +
                     'ID du voyage: ' + data.id_voyage + '\n' +
-                    'ID utilisateur: ' + user_iduser + '\n' +
+                    'ID utilisateur: ' + user_iduser +' '+ userName +' '+ userFirstname +'\n' +
                     'Date de voyage: ' + date_voyage + '\n' +
-                    'ID trajet: ' + trajet_idtrajet + '\n' +
+                    'ID trajet: ' + trajet_idtrajet + trajetName+'\n' +
                     'ID pilote: ' + pilote_idpilote);
 
                 // Afficher le message "Vous pouvez réserver votre voyage"
-                alert("Vous pouvez réserver votre voyage");
+                
             })
             .catch((error) => {
                 console.error('Error:', error);
@@ -154,8 +156,6 @@ formTravel.addEventListener("submit", (e) => {
     });
 });
 
-
-//affichage le nom et prenom dans le ticket
 
 
 

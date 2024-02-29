@@ -69,7 +69,9 @@ const checkConfPassword = () => {
         showError(confirmPasswordEl,"Votre mp ne correspond pas")	
     }else{
         showSuccess(confirmPasswordEl);
+        valid = true;
     }
+    return valid;
 }
 formRegister.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -79,16 +81,18 @@ formRegister.addEventListener("submit", (e) => {
     confirmationOk = checkConfPassword();
 
     let isFormValid = usernameOk && firstnameOk && passwordOk && confirmationOk;
+   
     if(isFormValid){
-        const username = usernameEl.value;
-        const firstname = firstNameEl.value;
+        const user_nom = usernameEl.value;
+        const user_prenom = firstNameEl.value;
         const password = passwordEl.value
-        fetch('https://localhost:3000/user', {
+        
+        fetch('http://localhost:3000/user', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ username, firstname, password})
+        body: JSON.stringify({ 'user nom':user_nom, 'user prenom':user_prenom, password})
     })
     .then(response => {
         if (!response.ok) {

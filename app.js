@@ -56,13 +56,14 @@ app.post('/user', (req,res) => {
      db.query(query, [user_nom,user_prenom,password], (err, results) => {
     if (err) {
       console.error('Erreur lors de l\'insertion des données :', err);
-      res.status(500).send('Erreur lors de l\'insertion des données dans la base de données');
+      res.status(500).json({error:'Erreur lors de l\'insertion des données dans la base de données'});
       return;
     }
-    console.log('Nouvel utilisateur inséré avec succès !');
-    res.status(201).send('Nouvel utilisateur inséré avec succès !');
+   
+    res.status(201).json({message:"Nouvel utilisateur inséré avec succès !"});
   });
 })
+// route pour récupérer le dernier utilisateur enregistré
 
 
 

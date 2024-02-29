@@ -112,20 +112,6 @@ formRegister.addEventListener("submit", (e) => {
 })
 
 
-// function validateForm(e) {
-
-//     if (!username  || !firstName   || !password || !confirmPassword) {
-//         alert('Veuillez remplir tous les champs.');
-//         return false;
-//     }
-
-//     if (password !== confirmPassword) {
-//         alert('Les mots de passe ne correspondent pas.');
-//         return false;
-//     }
-
-//     return true;
-// }
 
 
 

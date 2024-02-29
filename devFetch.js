@@ -58,7 +58,7 @@ function showError(input, message) {
     const errorEl = formField.querySelector("small")
     errorEl.textContent = message
 }
-// J'ai besoin d'une fonction qui permette d'afficher l'element valide en vert
+// une fonction qui permette d'afficher l'element valide en vert
 function showSuccess(input) {
     const formField = input.parentElement;
     formField.classList.remove("error")// class css

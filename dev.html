@@ -9,20 +9,27 @@
     <body>
         <div class="fond">
             <h1>Réservation de Voyage Spatial</h1>
-            <form action="#">
-                <label for="date">Date de Voyage :</label>
-                <input type="date" id="date" name="date" required><br><br>
-
-                <label for="trajet">Choisir le Trajet :</label>
+            <form action="#" id="formTravel">
+                <div class="form-field">
+                    <label for="date">Date de Voyage :</label>
+                <input type="date" id="date" name="date" required>
+                <span></span>
+                </div>
+                <div class="form-field">
+                    <label for="trajet">Choisir le Trajet :</label>    
                 <select id="trajet" name="trajet">
 
-                </select><br><br>
-
-                <label for="pilote">Choisir le Pilote :</label>
+                </select>
+                <span></span>
+                </div>
+                <div class="form-field">
+                    <label for="pilote">Choisir le Pilote :</label>
                 <select id="pilote" name="pilote">
 
-                </select><br><br>
-
+                </select>
+                <span></span>
+                </div>
+               
                 <button type="submit">Réserver</button>
             </form>
         </div>

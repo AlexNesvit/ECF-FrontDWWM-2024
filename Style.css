@@ -300,11 +300,9 @@ header{
 }
 
 .about-text{
-    font-size: 20px;
+    font-size: 15px;
     margin: 10% auto;
 }
-
-
 /*Section trajet*/
 .container-trajet{
     display: flex;
@@ -390,6 +388,10 @@ header{
     border-radius: 15px;
 }
 
+.card-text{
+    font-size: 14px;
+}
+
 h3 {
     font-size: 35px !important;
     margin-bottom: 0 !important;
@@ -401,7 +403,7 @@ h3 {
 
 p {
     color: #000;
-    font-size: 15.7px;
+    font-size: 15px;
 }
 
 /* Positionnement à gauche */
@@ -440,7 +442,7 @@ p {
     width: 350px;
     height: 70px;;
     position: absolute;
-    top: 305%; 
+    top: 290%; 
     left: 40%;
     font-size: 15px; 
     letter-spacing: 0.04em; 

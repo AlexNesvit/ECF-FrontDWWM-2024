@@ -102,7 +102,8 @@ header{
     }
 
     .promo-inner{
-        width: 100vh;
+        width: 100vh !important;
+        top: 40% !important;
     }
 
     .title{
@@ -114,9 +115,9 @@ header{
     }
 
     .promo-inner>button{
-        width: 250px;
-        height: 50px;
-        padding: 0%;
+        width: 250px !important;
+        height: 50px !important;
+        padding: 0% !important;
     }
 
     .menu{
@@ -132,10 +133,21 @@ header{
     }
 
     .btn-trajet{
-        margin-left: 30%;
+        margin-left: 25% !important;
     }
     .planete-petite{
-        margin-left: 15%;  /*marche pas*/
+        margin-left: 15% !important;  /*marche pas*/
+    }
+    .planete-medium {
+        margin-left: 75% !important;
+    }
+    .btn-pilot{
+        top: 340% !important;
+        margin-left: -10% !important;
+    }
+    .btn-bateau{
+        top: 470% !important;
+        margin-left: -10% !important;
     }
 }
 
@@ -460,7 +472,7 @@ p {
     width: 350px;
     height: 70px;;
     position: absolute;
-    top: 430%; 
+    top: 440%; 
     left: 40%;
     font-size: 15px; 
     letter-spacing: 0.04em; 
@@ -484,7 +496,7 @@ p {
 
 h2 {
     text-align: center;
-    font-size: 50px !important;
+    font-size: 40px !important;
     font-family:'Impact', sans-serif !important;
     color: #7B39FD !important;
     letter-spacing: 0.03em !important;

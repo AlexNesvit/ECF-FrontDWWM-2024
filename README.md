@@ -30,7 +30,7 @@
 
 - [Projet ECF-FrontDWWM-2024](#projet-ecf-frontdwwm-2024)
   - [Figma](#figma)
-  - [Trello voir ici](#trello-voir-ici)
+  - Trello [voir ici](https://trello.com/b/Y8B1iAkv/conduite-de-projet)
   - [Les etapes](#les-etapes)
     - [1 Maquetage Figma pour Desctop](#1-maquetage-figma-pour-desctop)
     - [2 Maquetage Figma pour Ipad 768 \* 981](#2-maquetage-figma-pour-ipad-768--981)
@@ -42,15 +42,15 @@
     - [8 Backend API](#8-backend-api)
     - [9 SQL](#9-sql)
 - [**Orange Portfólio**🍊](#orange-portfólio)
-  - [Índice](#índice)
-  - [Sobre](#sobre)
+  - [À propos](#À propos)
+  - [Ressources](#Ressources)
   - [Recursos](#recursos)
 - [Acesso ao Site](#acesso-ao-site)
-- [Tecnologias Utilizadas:](#tecnologias-utilizadas)
+- [Technologies Utilisées:](#tecnologias-utilizadas)
   - [Tecnologias de organização do projeto:](#tecnologias-de-organização-do-projeto)
   - [Back-end:](#back-end)
   - [Front-end:](#front-end)
-  - [Banco de dados, Cloud e Documentação :](#banco-de-dados-cloud-e-documentação-)
+  - [Base de données:](#banco-de-dados-cloud-e-documentação-)
 - [Instalando Frameworks e bibliotecas](#instalando-frameworks-e-bibliotecas)
   - [Back-end:](#back-end-1)
     - [DJANGO:](#django)
@@ -70,50 +70,51 @@
 
 ---
 
-## Sobre
+## À propos
 
-O Orange Portfólio é uma aplicação web para hospedagem de projetos e portfólios. Visa atender a profissionais voltados para área de desenvolvimento e diversas áreas, permitindo a exibição de seus trabalhos e a descoberta de outros projetos.
-
----
-
-## Recursos
-
-- Registro de usuários novos
-- Login de usuários existentes
-- Perfil do usuário
-- Explorar projetos
-
-# Acesso ao Site
-
-O site está disponível online. Você pode acessá-lo através do seguinte URL:
-
-[Orange Portfólio](https://)
+Le projet ECF-FrontDWWM-2024 est une application web pour l'hébergement de projets et de portfolios. Son objectif est de répondre aux besoins des professionnels du développement et de divers domaines, en leur permettant de présenter leurs travaux et de découvrir d'autres projets.
 
 ---
 
-# Tecnologias Utilizadas:
+## Ressources
 
-## Tecnologias de organização do projeto:
-- Protótipo: [Figma](https://www.figma.com/file/utDx59m5Opz1lDSN1J4r9I/Desafio---Programa-de-Forma%C3%A7%C3%A3o-5.0?type=design&node-id=529-9727&mode=design&t=Yo984RS7Qxftwlbn-0)
-- Organização da SQUAD 2: [Trello](https://trello.com/b/weaLLQcC/hackathon-orangejuice)
+- Enregistrement de nouveaux utilisateurs
+- Connexion des utilisateurs existants
+- Profil utilisateur
+- Explorer les projets
+
+# Accès au Site
+
+Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante :
+
+[ECF-FrontDWWM-2024](http://localhost:8888)
 
 ---
 
-## Back-end:
-- Linguagem de Programação: [Python]
-- Framework: [Django][Django REST Framework][REACT.JS][django-allauth]
-- Biblioteca:[django.contrib.auth][rest_framework_simplejwt][django.core.validators][rest_framework.serializers]
+# Technologies Utilisées:
+
+## Technologies d'organisation du projet:
+- Le modele[Figma](https://www.figma.com/)
+- Organisation de projet: [Trello](https://trello.com/b/Y8B1iAkv/conduite-de-projet)
 
 ---
 
 ## Front-end:
-- Linguagem de Programação: [JavaScript] [HTML] [CSS]
-- Framework: [REACT.JS]
-- Biblioteca: [react-router-dom] [@testing-library/react] [ReactDOM]
+- Langage de Programmation: [HTML] [CSS][JavaScript]
+- Framework: [Bootstrap 5]
 
 ---
 
-## Banco de dados, Cloud e Documentação :
+## Back-end:
+- Langage de Programmation: [JavaScript]
+- Framework: [Node.JS]
+- Bibliothèque:[express][cors][nodemon]
+
+---
+
+
+
+## Base de données :
 - Banco de Dados: [MySQL]
 -  Cloud: [boto3]
 -  Documentação: [drf_yasg]

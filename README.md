@@ -63,7 +63,7 @@ Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante 
 ## Back-end:
 - Langage de Programmation: [JavaScript]
 - Framework: [Node.JS]
-- Bibliothèque:[express][cors][nodemon]
+- Bibliothèque:[Express][Cors][Nodemon]
 
 ---
 
@@ -78,7 +78,7 @@ Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante 
 ## Front-end:
 
 - Bootstrap 5.3.3:
-  Brancher le code [Bootstrap] `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">` dans `index.html`
+  Ajouter le link [Bootstrap] `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">` dans `index.html`
 
 ## Back-end:
 
@@ -98,7 +98,7 @@ Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante 
 Dans cette section, je souligne certains défis auxquels j'ai été confronté lors du développement du projet. Ce sont des points qui nécessitent une attention et des efforts supplémentaires pour améliorer la qualité et l'efficacité du projet.
 
 1. **Problème 1 : Création du projet dans Figma.**
-   - *Context*: J'ai commencé la création du fond pour le projet à l'aide de Figma. Environ 300 groupes d'éléments (étoiles et planètes) ont été créés.
+   - *Context*: J'ai commencé la création du fond(backgraund-color) pour le projet à l'aide de Figma. Environ 300 groupes d'éléments (étoiles et planètes) ont été créés.
    - *Impact*: J'ai perdu plusieurs jours avant que la maquette ne soit achevée.
    - *Solutions possibles*: Choisir quelques images pour l'arrière-plan. Si la création de groupes d'éléments est une question de principe, alors prévoir plus de temps pour la maquette.
 

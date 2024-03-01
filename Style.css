@@ -443,7 +443,7 @@ p {
     height: 70px;;
     position: absolute;
     top: 290%; 
-    left: 40%;
+    left: 38% !important;
     font-size: 15px; 
     letter-spacing: 0.04em; 
     opacity: 0.6;
@@ -474,8 +474,8 @@ p {
     width: 350px;
     height: 70px;;
     position: absolute;
-    top: 440%; 
-    left: 40%;
+    top: 420%; 
+    left: 38%;
     font-size: 15px; 
     letter-spacing: 0.04em; 
     opacity: 0.6;

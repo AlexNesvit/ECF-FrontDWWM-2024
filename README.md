@@ -55,7 +55,7 @@ Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante 
 ---
 
 ## Front-end:
-- Langage de Programmation: [HTML] [CSS][JavaScript]
+- Langage de Programmation: [HTML] [CSS] [JavaScript]
 - Framework: [Bootstrap 5]
 
 ---
@@ -67,11 +67,9 @@ Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante 
 
 ---
 
-
-
 ## Base de données :
 - Base de Données: [MySQL]
--  PhpMyAdmin: [PhpMyAdmin]
+- PhpMyAdmin: [PhpMyAdmin]
   
 ---
 

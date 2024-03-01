@@ -111,9 +111,9 @@ Dans cette section, je souligne certains défis auxquels j'ai été confronté l
 
 # Prochaines étapes
 
-Visto que este é um projeto relativamente curto, pensamos em algumas possíveis implementações para o futuro.
+Étant donné qu'il s'agit d'un projet relativement court, j'ai envisagé quelques implémentations possibles pour l'avenir.
 
- **Melhoria 1: Gerar dashboards de tecnologias utilizadas e de busca por tags específicas**
+ **Amélioration 1: Gerar dashboards de tecnologias utilizadas e de busca por tags específicas**
    - *Contexto*: Por se tratar de uma plataforma que pode promover contratações, podemos explorar melhor algumas funcionalidades.
    - *Objetivo*: Acompanhar as tendências de mercado e atualizar profissionais e recrutadores para um melhor desenvolvimento profissional.
    - *Plano de Ação*: Implementar um banco de dados de registros de pesquisas, executar consultas SQL, gerar dashboards para usuários acompanharem.

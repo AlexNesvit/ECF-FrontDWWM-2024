@@ -75,7 +75,13 @@ Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante 
 
 # Installation des Frameworks et des bibliothèques
 
+## Front-end:
+
+- Bootstrap:
+  Brancher le lien [Bootstrap](<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">) dans index.html
+
 ## Back-end:
+
 1. Instale o Python através do [python.org]
 2. Abra o terminal do Windows
 3. Execute o comando `pip install` seguido do nome da biblioteca
@@ -106,15 +112,6 @@ Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante 
 ### Outros:
 - google-auth:
   `pip install google-auth`
-
-## Front-end:
-- React e React Router Dom:
-  Pré-requisitos:
-  Node.js e npm instalados.
-  Instalação:
-  Abra o terminal na raiz do seu projeto.
-  Execute o seguinte comando para instalar as dependências:
-  npm install
 
 ---
 

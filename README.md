@@ -95,17 +95,17 @@ Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante 
 
 # Principaux Problèmes Rencontrés
 
-Dans cette section, nous mettons en évidence quelques-uns des défis auxquels nous avons été confrontés lors du développement du projet. Ce sont des points qui nécessitent une attention et des efforts supplémentaires pour améliorer la qualité et l'efficacité du projet.
+Dans cette section, je souligne certains défis auxquels j'ai été confronté lors du développement du projet. Ce sont des points qui nécessitent une attention et des efforts supplémentaires pour améliorer la qualité et l'efficacité du projet.
 
-1. **Problema 1: Integração das bibliotecas drf-social-oauth2**
-   - *Contexto*: Primeiramente, tentamos implementar a autenticação via Google pela biblioteca [drf-social-oauth2].
-   - *Impacto*: Perdemos alguns dias até que a parte do back-end de Login e Registro estivesse totalmente finalizada.
-   - *Possíveis Soluções*: Migramos para a biblioteca [django-allauth].
+1. **Problème 1 : Création du projet dans Figma.**
+   - *Context*: J'ai commencé la création du fond pour le projet à l'aide de Figma. Environ 300 groupes d'éléments (étoiles et planètes) ont été créés.
+   - *Impact*: J'ai perdu plusieurs jours avant que la maquette ne soit achevée.
+   - *Solutions possibles*: Choisir quelques images pour l'arrière-plan. Si la création de groupes d'éléments est une question de principe, alors prévoir plus de temps pour la maquette.
 
-2. **Problema 2: Obtenção do token de acesso ao logar via Google ou GitHub com a biblioteca Django-Allauth**
-   - *Contexto*: Usando a biblioteca django-allauth, não conseguimos obter o token de acesso.
-   - *Impacto*: Isso atrapalhou a integração entre front-end e back-end.
-   - *Possíveis Soluções*: Comentamos essa parte do código pois levaria mais tempo para implementar a função, removemos o botão de login do google que fazia parte do protótipo para não confundir o usuário.
+2. **Problème 2: Les noms des colonnes SQL**
+   - *Context*: J'ai nommé les colonnes en utilisant des espaces.
+   - *Impact*: J'ai perdu beaucoup de temps à modifier le code
+   - *Solutions possibles*: Exclure l'utilisation d'espaces dans les noms de colonnes et utiliser CamelCase par example.
 
 ---
 

@@ -113,20 +113,20 @@ Dans cette section, je souligne certains défis auxquels j'ai été confronté l
 
 Étant donné qu'il s'agit d'un projet relativement court, j'ai envisagé quelques implémentations possibles pour l'avenir.
 
- **Amélioration 1: Gerar dashboards de tecnologias utilizadas e de busca por tags específicas**
-   - *Contexto*: Por se tratar de uma plataforma que pode promover contratações, podemos explorar melhor algumas funcionalidades.
-   - *Objetivo*: Acompanhar as tendências de mercado e atualizar profissionais e recrutadores para um melhor desenvolvimento profissional.
-   - *Plano de Ação*: Implementar um banco de dados de registros de pesquisas, executar consultas SQL, gerar dashboards para usuários acompanharem.
+ **Amélioration 1: _______**
+   - *Context*: 
+   - *Objectif*: 
+   - *Plan d'action*: 
 
- **Melhoria 2: Ampliar formatos de arquivos que podem ser feitos uploads**
-   - *Contexto*: Em uma época de crescimento do mercado de TI, diferentes desenvolvedores podem usar formatos de arquivos diversos.
-   - *Objetivo*: Ampliar o leque de opções para formatos de arquivos.
-   - *Plano de Ação*: Preparação de um banco de dados não relacional, implementações de front-end e back-end.
+ **Amélioration 2: ________**
+   - *Context*: 
+   - *Objetif*: 
+   - *Plan d'action*: 
 
-**Melhoria 3: Integração com IA**
-   - *Contexto*: Em uma época de grande volume de dados e bibliotecas de Machine Learning, podemos integrar nosso site para otimizações.
-   - *Objetivo*: Integração com IA para recomendações de profissionais para os recrutadores aproveitarem melhor a plataforma, oferecendo recomendações para usuários cruzando dados como: perfil profissional, experiências, tendências.
-   - *Plano de Ação*: Primeiro ter um banco de dados bem estruturado, utilizar APIs que possam ser integradas. Fazer por meio da tecnologia mais adequada (Linear regression, SVM, DecisionTree ou até Deep Learning).
+**Amélioration 3: __________**
+   - *Context*: 
+   - *Objetif*: 
+   - *Plan d'action*: 
 
 ---
 

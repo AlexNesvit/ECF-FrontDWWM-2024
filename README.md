@@ -24,9 +24,9 @@
 
 ### 9 SQL
 
-# **Orange Portfólio**🍊
+# **Projet ECF-FrontDWWM-2024**🍊
 
-## Índice
+## À propos
 
 - [Projet ECF-FrontDWWM-2024](#projet-ecf-frontdwwm-2024)
   - [Figma](#figma)
@@ -41,31 +41,24 @@
     - [7 JavaScript](#7-javascript)
     - [8 Backend API](#8-backend-api)
     - [9 SQL](#9-sql)
-- [**Orange Portfólio**🍊](#orange-portfólio)
+- [**Projet ECF-FrontDWWM-2024**🍊](#orange-portfólio)
   - [À propos](#À propos)
   - [Ressources](#Ressources)
-  - [Recursos](#recursos)
-- [Acesso ao Site](#acesso-ao-site)
-- [Technologies Utilisées:](#tecnologias-utilizadas)
-  - [Tecnologias de organização do projeto:](#tecnologias-de-organização-do-projeto)
+- [Accès au Site](#Accès au Site)
+- [Technologies Utilisées:](#Technologies Utilisées)
+  - [Technologies d'organisation du projet:](#Technologies d'organisation du projet)
   - [Back-end:](#back-end)
   - [Front-end:](#front-end)
-  - [Base de données:](#banco-de-dados-cloud-e-documentação-)
-- [Instalando Frameworks e bibliotecas](#instalando-frameworks-e-bibliotecas)
-  - [Back-end:](#back-end-1)
-    - [DJANGO:](#django)
-    - [Autenticação e Autorização:](#autenticação-e-autorização)
-    - [AWS:](#aws)
-    - [Outros:](#outros)
-  - [Front-end:](#front-end-1)
-- [Como Rodar os Testes](#como-rodar-os-testes)
-  - [Back-end](#back-end-2)
-    - [Execute todos os testes](#execute-todos-os-testes)
-- [Principais Problemas Enfrentados](#principais-problemas-enfrentados)
-- [Próximos Passos](#próximos-passos)
-- [Contribuições](#contribuições)
+  - [Base de données:](#Base de données)
+- [Installation des Frameworks et des bibliothèques](#Installation des Frameworks et des bibliothèques)
+  - [Front-end:](#front-end)
+  - [Back-end:](#back-end)
+  
+- [Principaux Problèmes Rencontrés](#Principaux Problèmes Rencontrés)
+- [Prochaines étapes](#Prochaines étapes)
+- [Contributions](#contributions)
 - [Integrantes (por ordem alfabética):](#integrantes-por-ordem-alfabética)
-- [Agradecimentos](#agradecimentos)
+- [Remerciements](#remerciements)
   - [🧡"Toda grande caminhada começa com um simples passo" (Buda).🍊](#toda-grande-caminhada-começa-com-um-simples-passo-buda)
 
 ---
@@ -115,13 +108,12 @@ Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante 
 
 
 ## Base de données :
-- Banco de Dados: [MySQL]
--  Cloud: [boto3]
--  Documentação: [drf_yasg]
-- Serviços Cloud: [EC2] [RDS] [S3] [SNS]
+- Base de Données: [MySQL]
+-  PhpMyAdmin: [PhpMyAdmin]
+  
 ---
 
-# Instalando Frameworks e bibliotecas
+# Installation des Frameworks et des bibliothèques
 
 ## Back-end:
 1. Instale o Python através do [python.org]
@@ -164,19 +156,11 @@ Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante 
   Execute o seguinte comando para instalar as dependências:
   npm install
 
-# Como Rodar os Testes
-
-Para garantir a integridade e a funcionalidade do projeto, são fornecidos testes automatizados. Siga as instruções abaixo para executar os testes.
-
-## Back-end
-### Execute todos os testes
-`python manage.py test`
-
 ---
 
-# Principais Problemas Enfrentados
+# Principaux Problèmes Rencontrés
 
-Nesta seção, destacamos alguns dos desafios que enfrentamos durante o desenvolvimento do projeto. Estes são pontos que requerem atenção e esforços adicionais para melhorar a qualidade e a eficiência do projeto.
+Dans cette section, nous mettons en évidence quelques-uns des défis auxquels nous avons été confrontés lors du développement du projet. Ce sont des points qui nécessitent une attention et des efforts supplémentaires pour améliorer la qualité et l'efficacité du projet.
 
 1. **Problema 1: Integração das bibliotecas drf-social-oauth2**
    - *Contexto*: Primeiramente, tentamos implementar a autenticação via Google pela biblioteca [drf-social-oauth2].
@@ -190,7 +174,7 @@ Nesta seção, destacamos alguns dos desafios que enfrentamos durante o desenvol
 
 ---
 
-# Próximos Passos
+# Prochaines étapes
 
 Visto que este é um projeto relativamente curto, pensamos em algumas possíveis implementações para o futuro.
 
@@ -211,20 +195,15 @@ Visto que este é um projeto relativamente curto, pensamos em algumas possíveis
 
 ---
 
-# Contribuições
+# Contributions
 
 Se você estiver interessado em abordar algum dos problemas mencionados ou contribuir com ideias para os próximos passos, Pode entrar em contato com os desenvolvedores  pelos links abaixo.
 
 ---
-# Integrantes (por ordem alfabética): 
 
-- [Felipe Siqueira](https://github.com/Fesids)([LinkedIn](https://www.linkedin.com/in/felipe-siqueira-de-sousa-28a5951b5))
-- [Iago Santos](https://github.com/iagoreal)([LinkedIn](https://www.linkedin.com/in/iago-dos-santos-vila-real-4513aa255/))
-- [Ian Périgo](https://github.com/IanPerigoVianna)([LinkedIn](https://www.linkedin.com/in/ianperigo))
-- [Thaís Siqueira](https://github.com/Thaisraie)([LinkedIn](https://www.linkedin.com/in/thaisqusi/))
 
-# Agradecimentos
+# Remerciements
 
 A SQUAD-2 agradece a toda equipe do OrangeJuice e Fcamara que disponibilizaram profissionais gabaritados e muito gentis para nos acompanhar nesse processo. Ao nosso Padrinho Lucas Moreira sempre solícito e objetivo, à Fabiana Martins por desenvolver um protótipo lindo e bem organizado, e à Mariana Medanha do marketing que nos envolveu nessa hackathon como uma jornada épica. 
 
-## 🧡"Toda grande caminhada começa com um simples passo" (Buda).🍊
+## 🧡"Tout grand voyage commence par un simple pas" (Bouddha) 🧡

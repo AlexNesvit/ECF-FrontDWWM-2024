@@ -24,16 +24,16 @@
 
 ## À propos
 
-Le projet ECF-FrontDWWM-2024 est une application web pour l'hébergement de projets et de portfolios. Son objectif est de répondre aux besoins des professionnels du développement et de divers domaines, en leur permettant de présenter leurs travaux et de découvrir d'autres projets.
+Le projet ECF-FrontDWWM-2024 est une application web pour la planification de voyages spatiaux. Son objectif est de répondre aux besoins des professionnels du développement et de divers domaines, en leur permettant de présenter leurs travaux et de découvrir d'autres projets.
 
 ---
 
 ## Ressources
 
-- Enregistrement de nouveaux utilisateurs
+- Enregistrement de nouveaux utilisateurs du site
 - Connexion des utilisateurs existants
-- Profil utilisateur
-- Explorer les projets
+- La possibilité de choisir le trajet et le pilote
+- Creation de ticket
 
 # Accès au Site
 

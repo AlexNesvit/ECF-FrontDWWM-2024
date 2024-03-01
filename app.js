@@ -13,12 +13,12 @@ app.use(json());
 app.use(cors());
 
 // informations de connexion databases
-const db = createConnection({
+const db = mysql.bodycreateConnection({
     host: 'localhost',
     user: 'root',
-    password: '',
+    password: 'root',
     database: 'spacetravel',
-    port: '3306'
+    port: '8889'
 })
 // connexion
 db.connect(err => {

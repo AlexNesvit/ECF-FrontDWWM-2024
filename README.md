@@ -1,28 +1,8 @@
 # Projet ECF-FrontDWWM-2024
 
-
-## Trello [voir ici](https://trello.com/b/Y8B1iAkv/conduite-de-projet)
-
-
-# **Projet ECF-FrontDWWM-2024**
-
 ## À propos
 
 - [Projet ECF-FrontDWWM-2024](#projet-ecf-frontdwwm-2024)
-  - [Figma](#figma)
-  - Trello [voir ici](https://trello.com/b/Y8B1iAkv/conduite-de-projet)
-  - [Les etapes](#les-etapes)
-    - [1 Maquetage Figma pour Desctop](#1-maquetage-figma-pour-desctop)
-    - [2 Maquetage Figma pour Ipad 768 \* 981](#2-maquetage-figma-pour-ipad-768--981)
-    - [3 Maquetage Figma pour Iphone 14 Pro \& 15 Pro 393 \* 852](#3-maquetage-figma-pour-iphone-14-pro--15-pro-393--852)
-    - [4 HTML](#4-html)
-    - [5 CSS](#5-css)
-    - [6 CSS Framework](#6-css-framework)
-    - [7 JavaScript](#7-javascript)
-    - [8 Backend API](#8-backend-api)
-    - [9 SQL](#9-sql)
-      
-- [**Projet ECF-FrontDWWM-2024**🍊](#ecf-frontdwwm-2024)
   - [À propos](#à-propos)
   - [Ressources](#ressources)
 - [Accès au Site](#accès-au-site)

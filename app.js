@@ -1,33 +1,38 @@
 /*Backend functions 
+npm install      /(pour installer tout)/
 npm install -y
 npm install express
 npm start
-npm i -D nodemon
+npm i -D node
  nodemon app.js - pour start le server*/
-import express, { json } from 'express';
-import { createConnection } from 'mysql2';
-import cors from 'cors';
-const app = express();
-const port = 3000;
-app.use(json());
-app.use(cors());
+ import express, { json } from 'express';
+ import { createConnection } from 'mysql2';
+ import cors from 'cors';
+ 
+ const app = express();
+ const port = 3000;
+ 
+ // Configuration des middlewares
+ app.use(json());
+ app.use(cors());
+ // Informations de connexion à la base de données
+ const db = createConnection({
+     host: 'localhost',
+     user: 'root',
+     password: 'root',
+     database: 'spacetravel',
+     port: '8889'
+ });
+ 
+ // Établissement de la connexion à la base de données
+ db.connect((err) => {
+     if (err) {
+         console.log('Erreur lors de la connexion à la base de données :', err);
+         return;
+     }
+     console.log('Connecté à la base de données MySQL');
+ });
 
-// informations de connexion databases
-const db = mysql.bodycreateConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'root',
-    database: 'spacetravel',
-    port: '8889'
-})
-// connexion
-db.connect(err => {
-    if (err) {
-        console.log('Erreur de connexion à la base données' + err);
-        return;
-    }
-    console.log('connecté à la base de données')
-})
 // route pour recup tous les trajets
 app.get('/trajets', (req, res) => {
     db.query('SELECT * FROM trajet', (err, results) => {

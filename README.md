@@ -41,14 +41,14 @@
     - [7 JavaScript](#7-javascript)
     - [8 Backend API](#8-backend-api)
     - [9 SQL](#9-sql)
-- [**Projet ECF-FrontDWWM-2024**🍊](#orange-portfólio)
+- [**Projet ECF-FrontDWWM-2024**🍊](#ecf-frontdwwm-2024)
   - [À propos](#À propos)
-  - [Ressources](#Ressources)
+  - [Ressources](#ressources)
 - [Accès au Site](#Accès au Site)
 - [Technologies Utilisées:](#Technologies Utilisées)
   - [Technologies d'organisation du projet:](#Technologies d'organisation du projet)
-  - [Back-end:](#back-end)
   - [Front-end:](#front-end)
+  - [Back-end:](#back-end)
   - [Base de données:](#Base de données)
 - [Installation des Frameworks et des bibliothèques](#Installation des Frameworks et des bibliothèques)
   - [Front-end:](#front-end)
@@ -57,9 +57,8 @@
 - [Principaux Problèmes Rencontrés](#Principaux Problèmes Rencontrés)
 - [Prochaines étapes](#Prochaines étapes)
 - [Contributions](#contributions)
-- [Integrantes (por ordem alfabética):](#integrantes-por-ordem-alfabética)
 - [Remerciements](#remerciements)
-  - [🧡"Toda grande caminhada começa com um simples passo" (Buda).🍊](#toda-grande-caminhada-começa-com-um-simples-passo-buda)
+  - [🧡"Tout grand voyage commence par un simple pas" (Bouddha)(#"tout-grand-voyage-commence-par-un-simple-pas"-(Bouddha))
 
 ---
 

@@ -41,6 +41,7 @@
     - [7 JavaScript](#7-javascript)
     - [8 Backend API](#8-backend-api)
     - [9 SQL](#9-sql)
+      
 - [**Projet ECF-FrontDWWM-2024**🍊](#ecf-frontdwwm-2024)
   - [À propos](#à-propos)
   - [Ressources](#ressources)
@@ -86,7 +87,10 @@ Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante 
 # Technologies Utilisées:
 
 ## Technologies d'organisation du projet:
-- Le modele[Figma](https://www.figma.com/)
+- La modele[Figma](https://www.figma.com/)
+  - Maquetage Figma pour Desctop
+  - Maquetage Figma pour Ipad 768 * 981
+  - Maquetage Figma pour Iphone 14 Pro & 15 Pro 393 * 852
 - Organisation de projet: [Trello](https://trello.com/b/Y8B1iAkv/conduite-de-projet)
 
 ---

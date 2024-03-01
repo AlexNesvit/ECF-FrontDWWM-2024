@@ -19,8 +19,7 @@
 - [Prochaines étapes](#prochaines-étapes)
 - [Contributions](#contributions)
 - [Remerciements](#remerciements)
-  - [🧡"Tout grand voyage commence par un simple pas" (Bouddha)
-
+  
 ---
 
 ## À propos

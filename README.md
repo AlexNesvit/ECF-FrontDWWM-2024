@@ -132,13 +132,13 @@ Visto que este é um projeto relativamente curto, pensamos em algumas possíveis
 
 # Contributions
 
-Se você estiver interessado em abordar algum dos problemas mencionados ou contribuir com ideias para os próximos passos, Pode entrar em contato com os desenvolvedores  pelos links abaixo.
+Si vous êtes intéressé à aborder l'un des problèmes mentionnés ou à contribuer avec des idées pour les prochaines étapes, vous pouvez me contacter via les liens ci-dessous.
 
 ---
 
 
 # Remerciements
 
-A SQUAD-2 agradece a toda equipe do OrangeJuice e Fcamara que disponibilizaram profissionais gabaritados e muito gentis para nos acompanhar nesse processo. Ao nosso Padrinho Lucas Moreira sempre solícito e objetivo, à Fabiana Martins por desenvolver um protótipo lindo e bem organizado, e à Mariana Medanha do marketing que nos envolveu nessa hackathon como uma jornada épica. 
+Je tiens à exprimer ma sincère gratitude envers Pierre Danaës, dont la disponibilité constante et la précision ont grandement contribué à la réalisation de ce projet. Son aide précieuse a transformé cette expérience en une aventure épique.
 
 ## 🧡"Tout grand voyage commence par un simple pas" (Bouddha) 🧡

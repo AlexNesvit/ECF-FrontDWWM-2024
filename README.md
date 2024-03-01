@@ -56,7 +56,7 @@ Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante 
 
 ## Front-end:
 - Langage de Programmation: [HTML] [CSS] [JavaScript]
-- Framework: [Bootstrap 5.3.3]
+- Framework: [Bootstrap 5.3.3](https://getbootstrap.com/)
 
 ---
 
@@ -78,40 +78,18 @@ Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante 
 ## Front-end:
 
 - Bootstrap 5.3.3:
-  Brancher le lien [Bootstrap](https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css) dans index.html
+  Brancher le code [Bootstrap] `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">` dans `index.html`
 
 ## Back-end:
 
-1. Instale o Python através do [python.org]
-2. Abra o terminal do Windows
-3. Execute o comando `pip install` seguido do nome da biblioteca
-4. Caso não funcione, garanta a instalação do pip usando: `python -m ensurepip --default-pip`
-
-### DJANGO:
-- Django:
-  `pip install django`
-
-- Django REST Framework:
-  `pip install djangorestframework`
-
-- django-allauth:
-  `pip install django-allauth`
-
-### Autenticação e Autorização:
-- rest_framework_simplejwt:
-  `pip install djangorestframework-simplejwt`
-
-### AWS:
-- boto3:
-  `pip install boto3`
-  Documentação:
-  
-- drf_yasg:
-  `pip install drf-yasg`
-
-### Outros:
-- google-auth:
-  `pip install google-auth`
+1. Installez node.js 
+2. Dans le terminal exécutez la commande `npm install`
+3. Installez express
+4. Dans le terminal exécutez la commande `npm install express`
+5. Installez cors
+6. fans le terminal exécutez la commande `npm install cors`
+7. Installez nodemon
+6. Dans le terminal exécutez la commande `npm install nodemon`
 
 ---
 

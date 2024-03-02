@@ -1,3 +1,4 @@
+//ce code initialise des variables pour les éléments de formulaire et définit une fonction pour vérifier si une valeur est requise. 
 const formRegister = document.getElementById('userRegister');
 const usernameEl = document.getElementById('username');
 const firstNameEl = document.getElementById('firstName');

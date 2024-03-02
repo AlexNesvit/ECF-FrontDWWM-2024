@@ -74,7 +74,7 @@ Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante 
   
 ---
 
-# Installation des Frameworks et des bibliothèques
+# Installation des Frameworks et des bibliothèques:
 
 ## Front-end:
 
@@ -114,20 +114,15 @@ Dans cette section, je souligne certains défis auxquels j'ai été confronté l
 
 Étant donné qu'il s'agit d'un projet relativement court, j'ai envisagé quelques implémentations possibles pour l'avenir.
 
- **Amélioration 1: _______**
-   - *Context*: 
-   - *Objectif*: 
-   - *Plan d'action*: 
-
- **Amélioration 2: ________**
-   - *Context*: 
-   - *Objetif*: 
-   - *Plan d'action*: 
-
-**Amélioration 3: __________**
-   - *Context*: 
-   - *Objetif*: 
-   - *Plan d'action*: 
+ **Amélioration 1: Ajouter plus l'interactivité dans le site**
+   - *Context*: Amélioration du calculateur de voyage, temps et météo.
+   - *Objectif*: Améliorer le calculateur de voyage en intégrant des fonctionnalités avancées telles que le calcul précis du temps de voyage, l'estimation des conditions météorologiques spatiales et la planification d'itinéraires.
+   - *Plan d'action*: 1. Effectuer une analyse approfondie des besoins des voyageurs spatiaux en matière de calcul de voyage, en tenant compte des différentes destinations spatiales, des véhicules spatiaux disponibles et des préférences des utilisateurs.
+2. Identifier les fonctionnalités clés à intégrer dans le calculateur de voyage, telles que le calcul précis du temps de voyage en fonction de la distance et de la vitesse, l'estimation des conditions météorologiques spatiales en cours de route, et la suggestion d'itinéraires alternatifs en cas de conditions météorologiques défavorables.
+3. Concevoir et mettre en œuvre une interface conviviale et intuitive pour le calculateur de voyage, permettant aux utilisateurs de saisir facilement leurs destinations, leurs dates de voyage et leurs préférences, et de visualiser rapidement les résultats.
+4. Intégrer des données météorologiques en temps réel provenant de sources fiables pour fournir des informations précises sur les conditions météorologiques dans l'espace, y compris les tempêtes solaires, les éruptions solaires et les radiations cosmiques.
+5. Effectuer des tests utilisateurs pour évaluer l'efficacité et l'exactitude du calculateur de voyage, ainsi que la convivialité de l'interface utilisateur, et recueillir les retours des utilisateurs pour apporter des améliorations si nécessaire.
+6. Continuer à mettre à jour et à améliorer le calculateur de voyage en fonction des nouvelles avancées technologiques dans le domaine spatial et des retours des utilisateurs, afin de garantir une planification de voyage précise et fiable pour les voyageurs spatiaux.
 
 ---
 
@@ -137,9 +132,8 @@ Si vous êtes intéressé à aborder l'un des problèmes mentionnés ou à contr
 
 ---
 
-
 # Remerciements
 
 Je tiens à exprimer ma sincère gratitude envers Pierre Danaës, dont la disponibilité constante et la précision ont grandement contribué à la réalisation de ce projet. Son aide précieuse a transformé cette expérience en une aventure épique.
 
-## 🧡"Tout grand voyage commence par un simple pas" (Bouddha) 🧡
+## 🟣"Tout grand voyage commence par un simple pas" (Bouddha) 🟣

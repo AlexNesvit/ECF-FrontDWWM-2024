@@ -11,6 +11,7 @@ function isRequired(elementValue){
         return true
     }
 }
+//cette fonction est utilisée pour rendre visibles les messages d'erreur associés aux champs de formulaire.
 function showError(input,message){
     const formField = input.parentElement;
     formField.classList.remove("success")// class css
@@ -18,7 +19,7 @@ function showError(input,message){
     const errorEl = formField.querySelector("small")
     errorEl.textContent = message
 }
-// J'ai besoin d'une fonction qui permette d'afficher l'element valide en vert
+// Une fonction qui permette d'afficher l'element valide en vert
 function showSuccess(input){
     const formField = input.parentElement;
     formField.classList.remove("error")// class css
@@ -86,7 +87,7 @@ formRegister.addEventListener("submit", (e) => {
         const user_nom = usernameEl.value;
         const user_prenom = firstNameEl.value;
         const password = passwordEl.value
-        
+//fetch est utilisé pour envoyer des données utilisateur à un serveur à l'aide d'une requête POST vers l'URL 'http://localhost:3000/user'.         
         fetch('http://localhost:3000/user', {
         method: 'POST',
         headers: {

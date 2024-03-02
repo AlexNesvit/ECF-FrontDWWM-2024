@@ -1,6 +1,6 @@
-# 🛸**Projet ECF-FrontDWWM-2024**🛸
+# ✅**Projet ECF-FrontDWWM-2024**✅
 
-## À propos
+## 🛸Planificateur de Voyages Spatiaux🛸
 
 - [Projet ECF-FrontDWWM-2024](#projet-ecf-frontdwwm-2024)
   - [À propos](#à-propos)
@@ -64,6 +64,7 @@ Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante 
 - Langage de Programmation: [JavaScript]
 - Framework: [Node.JS]
 - Bibliothèque:[Express][Cors][Nodemon]
+- Fetch API: Récoupérer les donées de destinations spatiales, depuis des APIs publiques.
 
 ---
 

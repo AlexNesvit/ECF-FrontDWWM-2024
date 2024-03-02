@@ -71,6 +71,7 @@ Le site est disponible sur localhost. Vous pouvez y accéder via l'URL suivante 
 ## Base de données :
 - Base de Données: [MySQL]
 - PhpMyAdmin: [PhpMyAdmin]
+- Postman [Postman]
   
 ---
 

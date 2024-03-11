@@ -1,24 +1,25 @@
-# ✅**Projet ECF-FrontDWWM-2024**✅ 
+# 🟣**Projet ECF-FrontDWWM-2024**🟣 
 
 ## 🛸Planificateur de Voyages Spatiaux🛸
 
-- [Projet ECF-FrontDWWM-2024](#projet-ecf-frontdwwm-2024)
+- [🟣**Projet ECF-FrontDWWM-2024**🟣](#projet-ecf-frontdwwm-2024)
+  - [🛸Planificateur de Voyages Spatiaux🛸](#planificateur-de-voyages-spatiaux)
   - [À propos](#à-propos)
   - [Ressources](#ressources)
 - [Accès au Site](#accès-au-site)
 - [Technologies Utilisées:](#technologies-utilisées)
-  - [Technologies d'organisation du projet:](#technologies-d'organisation-du-projet)
+  - [Technologies d'organisation du projet:](#technologies-dorganisation-du-projet)
   - [Front-end:](#front-end)
   - [Back-end:](#back-end)
-  - [Base de données:](#base-de-données)
-- [Installation des Frameworks et des bibliothèques](#installation-des-frameworks-et-des-bibliothèques)
-  - [Front-end:](#front-end)
-  - [Back-end:](#back-end)
-  
+  - [Base de données :](#base-de-données-)
+- [Installation des Frameworks et des bibliothèques:](#installation-des-frameworks-et-des-bibliothèques)
+  - [Front-end:](#front-end-1)
+  - [Back-end:](#back-end-1)
 - [Principaux Problèmes Rencontrés](#principaux-problèmes-rencontrés)
 - [Prochaines étapes](#prochaines-étapes)
 - [Contributions](#contributions)
 - [Remerciements](#remerciements)
+  - [🟣"Tout grand voyage commence par un simple pas" (Bouddha) 🟣](#tout-grand-voyage-commence-par-un-simple-pas-bouddha-)
   
 ---
 
